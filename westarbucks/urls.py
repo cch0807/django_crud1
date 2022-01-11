@@ -21,4 +21,5 @@ from django.urls import path,include
 urlpatterns = [
     path('products', include('products.urls')),
     path('owners', include('owners.urls')),
+    path('movies', include('movies.urls'))
 ]
